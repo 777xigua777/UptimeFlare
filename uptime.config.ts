@@ -192,7 +192,7 @@ const workerConfig: WorkerConfig = {
     },
     
   ],
-  /*notification: {
+  /* notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
     // More info at Wiki: https://github.com/lyc8503/UptimeFlare/wiki/Setup-notification
     webhook: {
@@ -228,8 +228,8 @@ const workerConfig: WorkerConfig = {
     // notification will be sent only if the monitor is down for N continuous checks after the initial failure
     // if not specified, notification will be sent immediately
     //gracePeriod: 5,
-  },
-  callbacks: {
+  }, */
+  /*callbacks: {
     onStatusChange: async (
       env: any,
       monitor: any,
@@ -246,7 +246,7 @@ const workerConfig: WorkerConfig = {
       
       // 调用 Resend API 发送邮件通知 (高级 HTML 格式)
       // 务必在 Cloudflare Worker 的设置 -> 变量中配置: RESEND_API_KEY
-      /* 
+       
       if (env.RESEND_API_KEY) {
         try {
           const statusText = isUp ? '恢复正常 (UP)' : '服务中断 (DOWN)';
@@ -293,7 +293,7 @@ const workerConfig: WorkerConfig = {
           console.error(`Error calling Resend API: ${e}`);
         }
       }
-      */
+      
       
       // 这不会遵循宽限期设置，并且在状态变化时立即调用
       // 如果您想实现宽限期，需要手动处理
@@ -310,7 +310,8 @@ const workerConfig: WorkerConfig = {
 
 
     },
-  }, */
+  },  
+ */
 } 
 
 // You can define multiple maintenances here
