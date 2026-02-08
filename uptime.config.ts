@@ -166,7 +166,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'qwe1',
       name: 'qwe1',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://qwe.nirvana1.dpdns.org/',
       hideLatencyChart: false,
       expectedCodes: [200],
@@ -175,7 +175,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'qwe2',
       name: 'qwe2',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://test.nirvana1.dpdns.org/',
       hideLatencyChart: false,
       expectedCodes: [200],
@@ -184,7 +184,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'qwe3',
       name: 'qwe3',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://asd.nirvana1.dpdns.org/',
       hideLatencyChart: false,
       expectedCodes: [200],
