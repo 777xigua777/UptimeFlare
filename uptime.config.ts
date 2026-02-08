@@ -56,7 +56,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'nav',
       name: 'nav',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://nav.nav7890.de5.net',
       statusPageLink: 'https://nav.nav7890.de5.net/',
       hideLatencyChart: false,
@@ -66,7 +66,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'blog',
       name: 'blog',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://3815147.xyz/',
       statusPageLink: 'https://3815147.xyz/',
       hideLatencyChart: false,
@@ -76,7 +76,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'cloudflare-imgbed',
       name: 'cloudflare-imgbed',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://cfi.nav7890.de5.net/',
       statusPageLink: 'https://cfi.nav7890.de5.net/',
       hideLatencyChart: false,
@@ -86,7 +86,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'sink',
       name: 'sink',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://nirvana2.dpdns.org/',
       statusPageLink: 'https://nirvana2.dpdns.org/',
       hideLatencyChart: false,
@@ -96,7 +96,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'moonTV',
       name: 'moonTV',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://zxc.nav7890.de5.net/',
       statusPageLink: 'https://zxc.nav7890.de5.net/',
       hideLatencyChart: false,
@@ -106,7 +106,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'LibreTV',
       name: 'LibreTV',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://zxc.a7890a.de5.net/',
       statusPageLink: 'https://zxc.a7890a.de5.net/',
       hideLatencyChart: false,
@@ -116,7 +116,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'NodeCrypt',
       name: 'NodeCrypt',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://nodecrypt.nav7890.de5.net/',
       statusPageLink: 'https://nodecrypt.nav7890.de5.net/',
       hideLatencyChart: false,
@@ -126,7 +126,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'SSL',
       name: 'SSL',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://ssl.nav7890.de5.net/',
       statusPageLink: 'https://ssl.nav7890.de5.net/',
       hideLatencyChart: false,
@@ -136,7 +136,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'frontmail',
       name: 'frontmail',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://mail.mail7890.de5.net/',
       statusPageLink: 'https://mail.mail7890.de5.net/',
       hideLatencyChart: false,
@@ -146,7 +146,7 @@ const workerConfig: WorkerConfig = {
     {
       id: '订阅管理系统',
       name: '订阅管理系统',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://c7890c.dpdns.org/',
       statusPageLink: 'https://c7890c.dpdns.org/',
       hideLatencyChart: false,
@@ -156,7 +156,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'ip-geoaddress-generator',
       name: 'ip-geoaddress-generator',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://igg.nav7890.de5.net/',
       statusPageLink: 'https://igg.nav7890.de5.net/',
       hideLatencyChart: false,
