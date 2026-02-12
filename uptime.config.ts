@@ -190,6 +190,15 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
+    {
+      id: 'qwe4',
+      name: 'qwe4',
+      method: 'GET',
+      target: 'https://rty.nav7890.de5.net/panel',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
     
   ],
   /* notification: {
