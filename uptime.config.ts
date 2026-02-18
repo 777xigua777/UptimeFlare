@@ -113,6 +113,16 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
+    {      
+      id: 'kvideo',      
+      name: 'kvideo',      
+      method: 'GET',      
+      target: 'https://kvideo.nav7890.de5.net/',      
+      statusPageLink: 'https://kvideo.nav7890.de5.net/',      
+      hideLatencyChart: false,      
+      expectedCodes: [200],      
+      timeout: 10000,    
+    },
     {
       id: 'NodeCrypt',
       name: 'NodeCrypt',
