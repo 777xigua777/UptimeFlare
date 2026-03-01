@@ -209,6 +209,15 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
+    {      
+      id: 'qwe5',      
+      name: 'qwe5',      
+      method: 'GET',      
+      target: 'https://fgh.nirvana1.dpdns.org/admin',      
+      hideLatencyChart: false,      
+      expectedCodes: [200],      
+      timeout: 10000,    
+    },
     
   ],
   /* notification: {
